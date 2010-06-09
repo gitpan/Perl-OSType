@@ -9,12 +9,12 @@ use ExtUtils::MakeMaker 6.31;
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Map operating system names to generic types or families',
+  'ABSTRACT' => 'Map Perl operating system names to generic types',
   'AUTHOR' => 'David Golden <dagolden@cpan.org>',
   'BUILD_REQUIRES' => {
     'File::Find' => '0',
     'File::Temp' => '0',
-    'Test::More' => '0',
+    'Test::More' => '0.88',
     'constant' => '0'
   },
   'CONFIGURE_REQUIRES' => {
@@ -27,7 +27,7 @@ my %WriteMakefileArgs = (
   'PREREQ_PM' => {
     'Exporter' => '0'
   },
-  'VERSION' => '0.005',
+  'VERSION' => '1.000',
   'test' => {
     'TESTS' => 't/*.t'
   }
@@ -36,10 +36,10 @@ my %WriteMakefileArgs = (
 
 unless ( eval { ExtUtils::MakeMaker->VERSION(6.56) } ) {
   my $br = delete $WriteMakefileArgs{BUILD_REQUIRES};
-  my $pp = $WriteMakefileArgs{PREREQ_PM}; 
+  my $pp = $WriteMakefileArgs{PREREQ_PM};
   for my $mod ( keys %$br ) {
     if ( exists $pp->{$mod} ) {
-      $pp->{$mod} = $br->{$mod} if $br->{$mod} > $pp->{$mod}; 
+      $pp->{$mod} = $br->{$mod} if $br->{$mod} > $pp->{$mod};
     }
     else {
       $pp->{$mod} = $br->{$mod};

@@ -1,5 +1,12 @@
 Revision history for Perl module Perl::OSType
 
+1.000     2010-06-09 16:01:50 EST5EDT
+
+  *** BACKWARDS INCOMPATIBLE CHANGE ***
+
+  - removed 'os_family' and 'is_os_family' functions
+    due to their inherent ambiguity
+
 0.005     2010-05-16 21:52:28 EST5EDT
 
   - renamed from OSType to Perl::OSType in preparation for
