@@ -10,7 +10,7 @@ use strict;
 use warnings;
 package Perl::OSType;
 BEGIN {
-  $Perl::OSType::VERSION = '1.001';
+  $Perl::OSType::VERSION = '1.002';
 }
 # ABSTRACT: Map Perl operating system names to generic types
 
@@ -101,7 +101,7 @@ Perl::OSType - Map Perl operating system names to generic types
 
 =head1 VERSION
 
-version 1.001
+version 1.002
 
 =head1 SYNOPSIS
 
@@ -129,8 +129,8 @@ all functions listed below.
 
 =head2 os_type()
 
-  $os_type = ostype();
-  $os_type = ostype('MSWin32');
+  $os_type = os_type();
+  $os_type = os_type('MSWin32');
 
 Returns a single, generic OS type for a given operating system name.  With no
 arguments, returns the OS type for the current value of C<$^O>.  If the

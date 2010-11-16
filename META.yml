@@ -27,11 +27,11 @@ no_index:
 provides:
   Perl::OSType:
     file: lib/Perl/OSType.pm
-    version: 1.001
+    version: 1.002
 requires:
   Exporter: 0
   perl: 5.006
 resources:
   homepage: http://github.com/dagolden/perl-ostype/tree
   repository: git://github.com/dagolden/perl-ostype.git
-version: 1.001
+version: 1.002

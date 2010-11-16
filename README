@@ -2,7 +2,7 @@ NAME
     Perl::OSType - Map Perl operating system names to generic types
 
 VERSION
-    version 1.001
+    version 1.002
 
 SYNOPSIS
       use Perl::OSType ':all';
@@ -27,8 +27,8 @@ USAGE
     all functions listed below.
 
   os_type()
-      $os_type = ostype();
-      $os_type = ostype('MSWin32');
+      $os_type = os_type();
+      $os_type = os_type('MSWin32');
 
     Returns a single, generic OS type for a given operating system name.
     With no arguments, returns the OS type for the current value of $^O. If
