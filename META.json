@@ -4,7 +4,7 @@
       "David Golden <dagolden@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.101582, CPAN::Meta::Converter version 2.101590",
+   "generated_by" : "Dist::Zilla version 4.102341, CPAN::Meta::Converter version 2.102400",
    "license" : [
       "perl_5"
    ],
@@ -19,6 +19,9 @@
          "xt",
          "examples",
          "corpus"
+      ],
+      "package" : [
+         "DB"
       ]
    },
    "prereqs" : {
@@ -45,15 +48,18 @@
    "provides" : {
       "Perl::OSType" : {
          "file" : "lib/Perl/OSType.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       }
    },
    "release_status" : "stable",
    "resources" : {
+      "homepage" : "http://github.com/dagolden/perl-ostype/tree",
       "repository" : {
-         "url" : "http://github.com/dagolden/perl-ostype"
+         "type" : "git",
+         "url" : "git://github.com/dagolden/perl-ostype.git",
+         "web" : "http://github.com/dagolden/perl-ostype/tree"
       }
    },
-   "version" : "1.000"
+   "version" : "1.001"
 }
 

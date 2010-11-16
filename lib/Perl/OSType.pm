@@ -1,16 +1,16 @@
-# 
+#
 # This file is part of Perl-OSType
-# 
+#
 # This software is copyright (c) 2010 by David Golden.
-# 
+#
 # This is free software; you can redistribute it and/or modify it under
 # the same terms as the Perl 5 programming language system itself.
-# 
+#
 use strict;
 use warnings;
 package Perl::OSType;
 BEGIN {
-  $Perl::OSType::VERSION = '1.000';
+  $Perl::OSType::VERSION = '1.001';
 }
 # ABSTRACT: Map Perl operating system names to generic types
 
@@ -23,7 +23,7 @@ our %EXPORT_TAGS = (
 
 our @EXPORT_OK = @{ $EXPORT_TAGS{all} };
 
-# taken from Module::Build by Ken Williams et al.
+# originally taken from Module::Build by Ken Williams et al.
 my %OSTYPES = qw(
   aix         Unix
   bsdos       Unix
@@ -35,6 +35,7 @@ my %OSTYPES = qw(
   linux       Unix
   haiku       Unix
   hpux        Unix
+  iphoneos    Unix
   irix        Unix
   darwin      Unix
   machten     Unix
@@ -100,7 +101,7 @@ Perl::OSType - Map Perl operating system names to generic types
 
 =head1 VERSION
 
-version 1.000
+version 1.001
 
 =head1 SYNOPSIS
 
@@ -156,7 +157,7 @@ L<Devel::CheckOS>
 
 =head1 AUTHOR
 
-  David Golden <dagolden@cpan.org>
+David Golden <dagolden@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 

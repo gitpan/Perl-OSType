@@ -2,7 +2,7 @@ NAME
     Perl::OSType - Map Perl operating system names to generic types
 
 VERSION
-    version 1.000
+    version 1.001
 
 SYNOPSIS
       use Perl::OSType ':all';
@@ -47,7 +47,7 @@ SEE ALSO
     *   Devel::CheckOS
 
 AUTHOR
-      David Golden <dagolden@cpan.org>
+    David Golden <dagolden@cpan.org>
 
 COPYRIGHT AND LICENSE
     This software is copyright (c) 2010 by David Golden.

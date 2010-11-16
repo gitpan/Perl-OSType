@@ -10,7 +10,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.31
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.101582, CPAN::Meta::Converter version 2.101590'
+generated_by: 'Dist::Zilla version 4.102341, CPAN::Meta::Converter version 2.102400'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -22,13 +22,16 @@ no_index:
     - xt
     - examples
     - corpus
+  package:
+    - DB
 provides:
   Perl::OSType:
     file: lib/Perl/OSType.pm
-    version: 1.000
+    version: 1.001
 requires:
   Exporter: 0
   perl: 5.006
 resources:
-  repository: http://github.com/dagolden/perl-ostype
-version: 1.000
+  homepage: http://github.com/dagolden/perl-ostype/tree
+  repository: git://github.com/dagolden/perl-ostype.git
+version: 1.001
