@@ -2,7 +2,7 @@ NAME
     Perl::OSType - Map Perl operating system names to generic types
 
 VERSION
-    version 1.002
+    version 1.003
 
 SYNOPSIS
       use Perl::OSType ':all';
@@ -46,11 +46,30 @@ USAGE
 SEE ALSO
     *   Devel::CheckOS
 
+SUPPORT
+  Bugs / Feature Requests
+    Please report any bugs or feature requests through the issue tracker at
+    <https://github.com/dagolden/perl-ostype/issues>. You will be notified
+    automatically of any progress on your issue.
+
+  Source Code
+    This is open source software. The code repository is available for
+    public review and contribution under the terms of the license.
+
+    <https://github.com/dagolden/perl-ostype>
+
+      git clone git://github.com/dagolden/perl-ostype.git
+
 AUTHOR
     David Golden <dagolden@cpan.org>
 
+CONTRIBUTORS
+    *   Jonas B. Nielsen <jonasbn@hoarfrost.local>
+
+    *   Paul Green <Paul.Green@stratus.com>
+
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2010 by David Golden.
+    This software is copyright (c) 2013 by David Golden.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
