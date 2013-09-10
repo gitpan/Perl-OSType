@@ -10,14 +10,14 @@ use File::Spec::Functions;
 use List::Util qw/max/;
 
 my @modules = qw(
-  Capture::Tiny
   Exporter
   ExtUtils::MakeMaker
   File::Spec::Functions
   File::Temp
+  IO::Handle
+  IPC::Open3
   List::Util
   Test::More
-  blib
   constant
   perl
   strict
