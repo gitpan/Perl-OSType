@@ -1,5 +1,15 @@
 Revision history for Perl module Perl::OSType
 
+1.006     2013-09-25 13:57:38 America/New_York
+
+    [FIXES]
+
+    - Compile test could hang on Windows
+
+    [PREREQS]
+
+    - Dropped configure_requires for ExtUtils::MakeMaker to 6.17
+
 1.005     2013-09-10 19:47:24 America/New_York
 
     [CHANGED]

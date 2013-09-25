@@ -2,7 +2,7 @@ NAME
     Perl::OSType - Map Perl operating system names to generic types
 
 VERSION
-    version 1.005
+    version 1.006
 
 SYNOPSIS
       use Perl::OSType ':all';
