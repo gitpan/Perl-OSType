@@ -2,7 +2,7 @@ NAME
     Perl::OSType - Map Perl operating system names to generic types
 
 VERSION
-    version 1.006
+    version 1.007
 
 SYNOPSIS
       use Perl::OSType ':all';
@@ -70,8 +70,10 @@ CONTRIBUTORS
 
     *   Paul Green <Paul.Green@stratus.com>
 
+    *   Piotr Roszatycki <piotr.roszatycki@gmail.com>
+
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2013 by David Golden.
+    This software is copyright (c) 2014 by David Golden.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.

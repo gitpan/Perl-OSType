@@ -4,18 +4,14 @@ author:
   - 'David Golden <dagolden@cpan.org>'
 build_requires:
   ExtUtils::MakeMaker: 0
-  File::Spec: 0
   File::Spec::Functions: 0
-  File::Temp: 0
-  IO::Handle: 0
-  IPC::Open3: 0
   List::Util: 0
   Test::More: 0.88
   constant: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.17
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132620'
+generated_by: 'Dist::Zilla version 5.011, CPAN::Meta::Converter version 2.133380'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -32,7 +28,7 @@ no_index:
 provides:
   Perl::OSType:
     file: lib/Perl/OSType.pm
-    version: 1.006
+    version: 1.007
 requires:
   Exporter: 0
   perl: 5.006
@@ -42,9 +38,10 @@ resources:
   bugtracker: https://github.com/dagolden/Perl-OSType/issues
   homepage: https://github.com/dagolden/Perl-OSType
   repository: https://github.com/dagolden/Perl-OSType.git
-version: 1.006
+version: 1.007
 x_authority: cpan:DAGOLDEN
 x_contributors:
   - 'Jonas B. Nielsen <jonasbn@hoarfrost.local>'
   - 'Owain G. Ainsworth <oga@nicotinebsd.org>'
   - 'Paul Green <Paul.Green@stratus.com>'
+  - 'Piotr Roszatycki <piotr.roszatycki@gmail.com>'
